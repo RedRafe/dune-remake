@@ -3,8 +3,8 @@ local util = require ("__core__/lualib/util")
 local mod_gui = require ("__core__/lualib/mod-gui")
 local story = require ("__core__/lualib/story")
 --require ("worm-collision")
+--require ("test_spawn")
 require ("globals")
-require ("test_spawn")
 require ("config")
 
 local sound_low_time      = "dune-silo-alarm"
