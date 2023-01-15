@@ -1,0 +1,74 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 1. 15. 2023
+  Author's note:
+    - RedRafe updates Dune mod from Factorio v0.17 to v1.1
+    - all credits to the original modder TheSAguy, information can be found on the modpage  
+  Bugfix:
+    - fixed file/lib import since Factorio v1.1
+    - fixed compatibility with AAI Veichles: Miner v0.6.4
+    - fixed game crashing when starting a new map
+    - fixed GUI crashing during the game
+    - fixed sound of task completion/failure
+    - fixed worms despawning when placing bricks underneath them
+  Features:
+    - added difficulty settings to change game difficulty among 5 levels
+    - added sounds for task completion and failure to be more informative
+    - added masks to concrete types too & to check for entities when placed
+    - added settings to enable AAI Veichle piloting if AAI Programmable Vehicle is installed
+    - changed worms stats (feedbacks are very much appreciated)
+    - changed control params to be more customizable
+    - changed iron gear wheel recipe back to vanilla (2 iron plates instead of 4 of AAI's)
+---------------------------------------------------------------------------------------------------
+Version: 0.17.10
+Date: 6. 25. 2019
+  Bugfix:
+    - Turn Test mode off
+---------------------------------------------------------------------------------------------------
+Version: 0.17.9
+Date: 6. 25. 2019
+  Features:
+    - End Boss fight added
+---------------------------------------------------------------------------------------------------
+Version: 0.17.8
+Date: 6. 25. 2019
+  Features:
+    - Enemy units scale better
+    - There should now be attack groups periodical
+    - Lowered Starting Goals slightly again
+  Bugfix:
+    - Compatible with Factorio 0.17.51
+---------------------------------------------------------------------------------------------------
+Version: 0.17.7
+Date: 6. 21. 2019
+  Features:
+    - Starting Setting: Increase player reach
+    - Lowered Starting Goals
+    - You won't get a new worker if you're out of time on your current goal	
+---------------------------------------------------------------------------------------------------
+Version: 0.17.6
+Date: 6. 21. 2019
+  Bugfix:
+    - Removed "game.print" message
+---------------------------------------------------------------------------------------------------
+Version: 0.17.5
+Date: 6. 21. 2019
+  Features:
+    - Optimized Graphics: https://forums.factorio.com/viewtopic.php?f=70&t=30591#p224304
+    - Moving Worms! - Thanks to Darkfrei!!
+---------------------------------------------------------------------------------------------------
+Version: 0.17.4
+Date: 6. 21. 2019
+  Features:
+    - When you don't achieve your goal, attack waves will get bigger over time till you do complete it.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.3
+Date: 6. 21. 2019
+  Features:
+    - Updated Starting materials. You get two harvesters and 5 workers and a turret gun 
+    - Added a few random worm spawns
+---------------------------------------------------------------------------------------------------
+Version: 0.17.2
+Date: 6. 20. 2019
+  Features:
+    - Initial Release!
