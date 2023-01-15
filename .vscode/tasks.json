@@ -1,0 +1,19 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Export",
+      "type": "shell",
+      "command": "chmod +x ./scripts/export.sh ; ./scripts/export.sh",
+      "group": "build",
+    },
+    {
+      "label": "Log in Git RedRafe",
+      "type": "shell",
+      "command": "chmod +x ./scripts/switch_git.sh ; ./scripts/switch_git.sh",
+      "group": "build",
+    }
+  ]
+}
