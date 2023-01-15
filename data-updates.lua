@@ -128,4 +128,19 @@ if settings.startup["Double_Player_Reach"].value then
 
 end	
 
+-- Restore vanilla gear wheel recipe
 data.raw.recipe["iron-gear-wheel"].ingredients = {{"iron-plate", 2}}
+
+-- Disable placing miners
+data.raw['mining-drill']['burner-mining-drill'] = nil
+data.raw['mining-drill']['electric-mining-drill'] = nil
+data.raw.item['burner-mining-drill'].place_result = nil
+data.raw.item['electric-mining-drill'].place_result = nil
+
+-- remove sulfuric accid from uranium mining
+data.raw.resource["uranium-ore"].minable =
+{
+	mining_particle = "stone-particle",
+	mining_time = 2,
+	result = "uranium-ore"
+}
